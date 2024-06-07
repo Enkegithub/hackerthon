@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100% ;
+    width: 100%;
+}
+.nav-bar nav{
+    /* height: 2vh; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-bar nav h3{
+    margin: 10px 10px;
+    padding: 15px;
+    /* margin: 2px; */
+    background-color: #0ef;
+    border: 2px solid #00eeff;
+    border-radius: 50%;
+}
+.register-page{
+    height: 50vh;
+    width: 100%;
+    background-color: aqua;
+}
