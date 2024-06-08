@@ -1,3 +1,12 @@
-.second_page{
-    background-color: #f0f0f0;
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image img {
+    width: 100vw;
+    height:24vw;
+    display: block;
 }
