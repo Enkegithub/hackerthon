@@ -1,51 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".intro").fadeIn();
+            }, 5000);
+        });
+    </script>
 </head>
+
 <body>
-    <div class="main">
+    <!-- <div class="main">
         <div class="loader">
             <h2 class="zoom">YUMMY YARD</h2>
             <h1 class="scramble">YUMMY YARD</h1>
             <div class="loading"></div>
         </div>
-    </div>
+    </div> -->
     <div class="main-page">
-        
         <div class="nav-bar">
             <div class="store-name">
-                
-                <h2> <i class="ri-menu-2-fill"></i> Yummy Yard</h2>
+                <a href="">
+                    <h2>YUMMY<img src="images\pizza.png" alt=""></h2>
+                </a>
             </div>
-            <nav>
-                
-                <input type="search" name="" id="" placeholder="Search">
-                <a href="#">Home</a>
-                <a href="#">Menu</a>
-                <a href="#">AboutUs</a>
-                <a href="#">Enquiry</a>
-                <a href="#" id="login-icon">Login</a>
 
-            </nav>
+            <div class="middle-part">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact US</a>
+                </nav>
+            </div>
+            <div class="last-part">
+                <div class="search">
+                    <input type="text" placeholder="">
+                    <a href="#">
+                        <i class="fas ri-search-line"></i>
+                    </a>
+                </div>
+                <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+                <a href="#"><i class="ri-menu-3-line"></i></a>
+
+            </div>
         </div>
-        <div class="register-page">
-            <div class="pics"></div>
-            <div class="register"></div>
-            
+        <div class="intro">
+
         </div>
+
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <div class="intro hidden" id="text">
+        <div class="content">
+            <h2>International Dishes</h2>
+            <h3>Our Iconic Menus</h3>
+        </div>
+        <div class="slide-bar">
+            <div class="items" id="slide">
+                <div class="img1">
+                    <img src="/images/home-1-carousel-image-101.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+                <div class="img2"><img src="/images/home-1-carousel-image-102.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+                <div class="img3"><img src="/images/home-1-carousel-image-103.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+                <div class="img4">
+                    <img src="/images/category-img-3.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img5"><img src="/images/category-img-4.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img6"><img src="/images/category-img-5.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img1"><img src="/images/home-1-carousel-image-101.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img2"><img src="/images/home-1-carousel-image-102.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img3"><img src="/images/home-1-carousel-image-103.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img4"><img src="/images/category-img-3.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img5"><img src="/images/category-img-4.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+
+                <div class="img6"><img src="/images/category-img-5.jpg" alt="">
+                    <div class="order-field"><a href="#">Order Now</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-items">
+            <h2>Mouth Watering</h2>
+            <h3>Special Menus</h3>
+            <div class="sub-items">
+                <div class="burger">
+                    <h2>Veg burger</h2>
+                    <div class="part1">
+                        
+                        <div><p>Chease Burger</p>
+                            <img src="images/burger/1pic.jpg" alt="">
+                            
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>250</p>
+                                <button>Buy</button>
+                            </div>
+                            
+                            
+                        </div>
+                        <div><p>Veggie burger</p>
+                            <img src="images/burger/2pic.jpg" alt="">
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>400</p>
+                                <button>Buy</button>
+                           
+                            </div>
+                        </div>
+                        <div><p>Kit Burger</p>
+                            <img src="images/burger/pexels-valeriya-1639557.jpg" alt="">
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>350</p>
+
+                                <button>Buy</button>
+                            </div>
+                        </div>
+                        <div><p>Mushroom burger</p>
+                            <img src="images/burger/pexels-valeriya-1251197.jpg" alt="">
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>150</p>
+
+                                <button>Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Non-Veg Burger</h2>
+                    <div class="part2">
+                        <div><p>chicken tiki burger</p>
+                            <img src="images/burger/pexels-valeriya-1199960.jpg" alt="">
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>199</p>
+
+                                <button>Buy</button>
+                            </div>
+                        </div>
+                        <div><p>HamBurger</p>
+                            <img src="images/burger/chicken burger.jpg" alt="">
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>299</p>
+                                <button>Buy</button>
+                            </div>
+                        </div>
+                        <div><p>Butter chicken burger</p>
+                            <img src="images/burger/elk burger.jpg" alt="">
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>399</p>
+
+                                <button>Buy</button>
+                            </div>
+                           </div>
+                        <div><p>Chicken Hamburger</p>
+                            <img src="images/burger/hamburger.jpg" alt="">
+                            <div class="button-anime">
+                                <p><i class="ri-money-rupee-circle-line"></i>499</p>
+
+                                <button>Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza">
+
+
+                </div>
+                <div class="chicken">
+
+                </div>
+                <div class="motton">
+
+                </div>
+                <div class="noodles">
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="descrambler.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
